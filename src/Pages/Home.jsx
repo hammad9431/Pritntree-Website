@@ -21,7 +21,7 @@ function Home() {
      <HeroSection/>
      <HighlightSection/>
   {/* <ImageSection/> */}
-  <Image/>
+      <Image/>
      <QuoteSection/>
     <PrintingSection/>
     <InspectionSection/>

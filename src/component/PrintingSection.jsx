@@ -146,7 +146,7 @@ function PrintingSection() {
         </div>
         </div>
         <p className="text-sm text-gray-700 mt-1">
-          Xerox Alta Link C8045 / refurbished copier – color copier, copy machine,
+          Xerox Alta Link C8045 / refurbished copier - color copier, copy machine,
           color printer and scanner
         </p>
 

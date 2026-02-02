@@ -28,9 +28,9 @@ function HeroSection() {
 
         </div>
         {/* Second--Div */}
-        <div className=" lg:w-[100%] md:w-[100%]  lg:order-1  xl:order-2 md:order-1 max-sm:order-1 ">
+        <div className="lg:w-[100%] md:w-[100%]  lg:order-1  xl:order-2 md:order-1 max-sm:order-1 sm:w-[100%]">
 
-          <img src={image} alt="" className="lg:h-[550px] lg:w-full md:h-[500px]  md:w-full mx-auto sm:w-[100%] xl:w-full" />
+          <img src={image} alt="" className="lg:h-[550px] lg:w-full md:h-[500px]   md:w-full mx-auto sm:w-[100%] sm:border-red-600 xl:w-full" />
         </div>
       </div>
     </>

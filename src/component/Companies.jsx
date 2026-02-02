@@ -1,23 +1,51 @@
+
+import '../index.css'
+import Image1 from "../assets/images/konica.jpeg";
+import Image2 from "../assets/images/Kyocera-Logo-1982.png";
+import Image3 from "../assets/images/toshiba.jpeg";
+import Image4 from "../assets/images/Sharp-logo.png";
+import Image5 from "../assets/images/xerox logo 2.webp";
+import Image6 from "../assets/images/Canon logo.jpeg";
+import Image7 from "../assets/images/Epson-Logo-1975.png";
+import Image8 from "../assets/images/ricoh.jpeg";
+import Image9 from "../assets/images/lexmark.png";
+
 function Companies() {
   return (
-    <div className="w-full bg-[#e8effca8] py-6 my-8
-      grid grid-cols-9 md:grid-cols-9 lg:grid-cols-9 gap-2">
+    <>
 
-      <img src="src/assets/images/konica.jpeg" className="mx-auto h-12 object-contain" />
-      <img src="src/assets/images/Kyocera-Logo-1982.png" className="mx-auto h-12 object-contain" />
-      <img src="src/assets/images/toshiba.jpeg" className="mx-auto h-12 object-contain" />
-      <img src="src/assets/images/Sharp-logo.png" className="mx-auto h-12 object-contain" />
+      <div className="w-full overflow-hidden bg-[#e8effca8] py-6 my-8">
+        <div className="flex w-max animate-scroll">
+          
+          {/* FIRST SET */}
+          <div className="flex gap-10">
+            <img src={Image1} className="h-12" />
+            <img src={Image2} className="h-12" />
+            <img src={Image3} className="h-12" />
+            <img src={Image4} className="h-12" />
+            <img src={Image5} className="h-12" />
+            <img src={Image6} className="h-12" />
+            <img src={Image7} className="h-12" />
+            <img src={Image8} className="h-12" />
+            <img src={Image9} className="h-12" />
+          </div>
 
-    
-      <img src="src/assets/images/xerox logo 2.webp"
-        className=" mx-auto h-12 object-contain" />
+          {/* SECOND SET (CLONE) */}
+          <div className="flex gap-10 ml-10">
+            <img src={Image1} className="h-12" />
+            <img src={Image2} className="h-12" />
+            <img src={Image3} className="h-12" />
+            <img src={Image4} className="h-12" />
+            <img src={Image5} className="h-12" />
+            <img src={Image6} className="h-12" />
+            <img src={Image7} className="h-12" />
+            <img src={Image8} className="h-12" />
+            <img src={Image9} className="h-12" />
+          </div>
 
-      <img src="src/assets/images/Canon logo.jpeg" className="mx-auto h-12 object-contain" />
-      <img src="src/assets/images/Epson-Logo-1975.png" className="mx-auto h-12 object-contain" />
-      <img src="src/assets/images/ricoh.jpeg" className="mx-auto h-12 object-contain" />
-      <img src="src/assets/images/lexmark.png" className="mx-auto h-12 object-contain" />
-
-    </div>
+        </div>
+      </div>
+    </>
   );
 }
 
