@@ -82,8 +82,8 @@ class="bg-[#2143AC]   lg:w-[85%] md:w-[98%] w-[97%] md:py-10 py-2  mx-auto round
 {/* Quality ---End */}
 
 
-<div className='bg-red-50  rounded-lg md:m-3 border border-1 border-black'>
-<div className='bg-white m-3 py-4 rounded-lg'>
+<div className='bg-red-50  rounded-lg md:m-3 border '>
+<div className='bg-white m-3 py-4 rounded-lg '>
   <h5 className='text-blue-700 text-center underline decoration-solid'>What’s Included</h5> 
 </div>
 <div className='bg-white m-2 h-8 my-2 rounded-lg'>
