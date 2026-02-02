@@ -3,6 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import image from '../assets/images/get_quote_win1-99f9a581286763693d88941e608d037634cab459884379925187c65ccaf947a6.png'
 import image2 from '../assets/images/locked_bg-01b60f18d1af556b04a01b8a8544e07cce106941bdbf24b90126dbf086cbbb58.webp'
+import smallimage from '../assets/images/trusted_seller-b812cff386805b416cee6d5b5f484eca187873446ec8374a2a616183be271e37.webp'
 import { RxDotFilled } from "react-icons/rx";
 import { CiCirclePlus } from "react-icons/ci";
 import { GrSubtractCircle } from "react-icons/gr";
@@ -121,7 +122,7 @@ function QuoteSection() {
           <div className="flex items-center justify-center gap-3">
             <h2 className="text-2xl  lg:text-3xl md:text-2xl">Start My Free Quote!</h2>
             <img
-              src="src/assets/images/trusted_seller-b812cff386805b416cee6d5b5f484eca187873446ec8374a2a616183be271e37.webp"
+              src={smallimage}
 
               className="w-10 h-10 md:hidden lg:inline-block hidden"
             />

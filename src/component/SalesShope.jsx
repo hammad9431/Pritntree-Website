@@ -1,5 +1,7 @@
 
+
 import image1 from'../assets/images/trusted_2-899fc9864160ff5daf125da3b707d15dcb97b5f38d09aaa8ae0c2c983ba21b78.png'
+import image2 from '../assets/images/WhatsApp_Image_2025-12-07_at_22.27.34_727efba7-removebg-preview.png'
 // import image2 from '../assets/images/sale_page_1-29f35d020a61dcfddcd991ec72633bc6b0ebca1d2785354f45f22d24b7972c91.png'
 function SalesShope() {
   return (
@@ -23,7 +25,7 @@ class="bg-[#2143AC]   lg:w-[85%] md:w-[98%] w-[97%] md:py-10 py-2  mx-auto round
    <div className='bg-white lg:m-4 md:m-6 m-3 md:my-6 py-2  lg:py-2 md:py-1 rounded-lg'>
      <h3 className='text-blue-700 font-bold text-center'>The Best Seller</h3>
     </div> 
-    <img className='md:mx-auto sm:mx-auto' src="src/assets/images/WhatsApp_Image_2025-12-07_at_22.27.34_727efba7-removebg-preview.png" alt="" />
+    <img className='md:mx-auto sm:mx-auto' src={image2} alt="" />
      <div className='bg-white lg:m-4 md:m-6 py-2 rounded-lg '>
        <h3 className='text-blue-700 text-center '>Konica Minolta Bizhub C458</h3> 
      </div> 

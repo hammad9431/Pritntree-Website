@@ -1,5 +1,6 @@
 // import image from '../assets/images/product_boundry-8d7ca4d15433f8b11b44774201fd359c27844b22ef15ade29cc78f307f27fe83.png'
 import image1 from '../assets/images/product_boundry-8d7ca4d15433f8b11b44774201fd359c27844b22ef15ade29cc78f307f27fe83.png'
+import image2 from '../assets/images/image20231019-644101-u5wqgq.webp'
 function ProductBoundary() {
   return (
     <>
@@ -54,7 +55,7 @@ function ProductBoundary() {
           <p className="text-gray-500 text-sm mb-4">Refurbished copier – copy, print, scan</p>
 
           <img
-            src="src/assets/images/image20231019-644101-u5wqgq.webp"
+            src={image2}
             alt="Xerox AltaLink C8045"
             className="w-full  "
           />

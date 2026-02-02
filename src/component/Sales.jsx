@@ -1,6 +1,5 @@
-// import bgImage from'../assets/images/quote_page_header_product-431fb59a0cbfa4f9da25d0281acaa4edef56d9883d25d4fb7510e9fa6b67d68e.jpg'
-//   import bgImage2 from'../assets/images/mobile_head_product-792b7af7443d89e7017ad09c3fc35ace2f2a32ef498b35f6a95934d488045170.webp'
-
+import image1 from '../assets/images/mee.PNG'
+import image2 from '../assets/images/quote_page_header_product-431fb59a0cbfa4f9da25d0281acaa4edef56d9883d25d4fb7510e9fa6b67d68e.jpg'
 function Sales() {
   return (
     <>
@@ -9,12 +8,11 @@ function Sales() {
 <div className='xl:w-[90%] border rounded-2xl lg:w-[95%] md:w-[95%] w-[95%] flex flex-col  lg:flex-row-reverse gap-10'>
     
 
-<div
+<div  style={{ backgroundImage: `url(${image1 ? image1 : image2})` }}
   className="rounded-2xl
     xl:w-[65%] lg:w-[90%] md:w-[100%] w-[100%] lg:h-[780px] md:h-[640px] h-[600px] 
     bg-cover bg-center
-    bg-[url('src/assets/images/mee.PNG')]
-    lg:bg-[url('src/assets/images/quote_page_header_product-431fb59a0cbfa4f9da25d0281acaa4edef56d9883d25d4fb7510e9fa6b67d68e.jpg')]"
+    // lg:bg-[url('')]"
 >
 
   {/* content */}

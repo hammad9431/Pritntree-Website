@@ -1,4 +1,4 @@
-
+import image1 from '../assets/images/payment_methods-cc07ea1d53fd531396a36ee9e94b62eb78e8ef8e61620b2e567ffaa69014db05.webp'
 
 function Footer() {
   return (
@@ -108,7 +108,7 @@ function Footer() {
 
   {/* PAYMENT ICONS SECTION */}
   <div className="flex justify-center items-center h-40 w-[100%] ">
-    <img  src="src/assets/images/payment_methods-cc07ea1d53fd531396a36ee9e94b62eb78e8ef8e61620b2e567ffaa69014db05.webp" alt="Visa" className="h-8" />
+    <img  src={image1} alt="Visa" className="h-8" />
    
   </div>
 

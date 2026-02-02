@@ -1,4 +1,4 @@
-import React from 'react'
+import image1 from '../assets/images/ask_q_sec-7e4e81bbf0425f4aec9ee4a188d9749fd21a26102fe86db7de6c0976658eaba4.jpg'
 
 function ContactUs() {
   return (
@@ -8,7 +8,7 @@ function ContactUs() {
   <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-14'>
     <div className='border border-1 border-black'>
         {/* <h1>IMAGE----BOX----1</h1> */}
-        <img className='rounded-xl h-auto w-full' src="src/assets/images/ask_q_sec-7e4e81bbf0425f4aec9ee4a188d9749fd21a26102fe86db7de6c0976658eaba4.jpg" alt="" />
+        <img className='rounded-xl h-auto w-full' src={image1} alt="" />
         </div>
     <div className='border border-1 border-black'>
         {/* <h1>text----BOX----2</h1> */}
