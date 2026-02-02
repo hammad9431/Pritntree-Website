@@ -3,14 +3,14 @@ import image1 from '../assets/images/ask_q_sec-7e4e81bbf0425f4aec9ee4a188d9749fd
 function ContactUs() {
   return (
     <>
-<div className='w-full  border border-1 border-black'>
+<div className='w-full  '>
     <div className='w-[85%] justify-center items-center place-content-center mx-auto'>
   <div className='grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 gap-14'>
-    <div className='border border-1 border-black'>
+    <div >
         {/* <h1>IMAGE----BOX----1</h1> */}
         <img className='rounded-xl h-auto w-full' src={image1} alt="" />
         </div>
-    <div className='border border-1 border-black'>
+    <div >
         {/* <h1>text----BOX----2</h1> */}
         <h1 className='font-bold lg:text-2xl xl:text-4xl text-lg'>Questions ? Get in touch with us! We’re here to help</h1>
         <p className='xl:text-[21px] lg:text-[20px] text-gray-600'>Fill out the form below and let us know how we can help you to choose best machine.</p>

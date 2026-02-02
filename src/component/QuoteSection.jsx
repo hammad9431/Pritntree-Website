@@ -93,7 +93,7 @@ function QuoteSection() {
     });
   };
   return (
-    <div className="w-full bg-[#e8effc] lg:py-20 md:py-20 sm:py-10 py-10 flex flex-col items-center border-1 border-black">
+    <div className="w-full bg-[#e8effc] lg:py-20 md:py-20 sm:py-10 py-10 flex flex-col items-center ">
 {!autoshow && (
   <div>
       {/* Top Heading */}

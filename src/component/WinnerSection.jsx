@@ -1,6 +1,7 @@
 
 import image from'../assets/images/image20231019-644101-u5wqgq.webp'
 import image2 from '../assets/images/high_value_secIcon-e0ae34c66f2f0f9c5356002172c33f04c63f04babfa44a6fac607d1e83aabc75 (1).svg'
+import image3 from '../assets/images/win_award_icon_1-89c128609fa3fc8495c94e11ffb8992eaf6d828ebf81514766166b8636c68645.png'
 import { MdArrowOutward } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import { CiHeart } from "react-icons/ci";
@@ -10,7 +11,7 @@ function WinnerSection() {
     <>
 <div>
         <div className='justify-center items-center flex'>
-            <img className='h-20 md:hidden lg:inline-block hidden' src="src/assets/images/win_award_icon_1-89c128609fa3fc8495c94e11ffb8992eaf6d828ebf81514766166b8636c68645.png" alt="" />
+            <img className='h-20 md:hidden lg:inline-block hidden' src={image3} alt="" />
         <h1 className='font-bold text-lg md:text-3xl lg:text-[34px]'>THE WINNER - MOST PURCHASED</h1>
         </div>
 
@@ -27,7 +28,7 @@ function WinnerSection() {
 
 {/* grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1  */}
 <div className='lg:w-[90%] md:w-[95%] justify-center items-center mx-auto'>
-<div className='flex lg:flex-row md:flex-col flex-col !border border-1 border-green-500'>
+<div className='flex lg:flex-row md:flex-col flex-col '>
     <div className=' lg:w-[40%] md:w-full'>
         {/* <h1>Box---Image---1</h1> */}
 
@@ -66,7 +67,7 @@ function WinnerSection() {
 </div>
 
         {/* Quantity Selector */}
-        <div className="mt-6 flex !border border-1 border-red-600 ">
+        <div className="mt-6 flex ">
          
 
           <div className="flex items-center gap-2 mt-2">
@@ -105,12 +106,12 @@ function WinnerSection() {
 </div>
 
 {/* SECOND---box---2 */}
-    <div className='border border-1 border-black my-3  lg:w-[60%] md:w-[100%] bg-[#e8effc]'>
+    <div className=' my-3  lg:w-[60%] md:w-[100%] bg-[#e8effc]'>
         {/* <h1>Box---Text---2</h1> */}
         <h1 className='text-center my-4 font-bold md:text-2xl lg:text-3xl text-xl'>OVER 400 ORDERS DELIVERED</h1>
         <p className='text-center lg:text-base md:text-base'>Now delivering Nationwide - 3-7 Business day lightning delivery!</p>
        {/* Small---BOXES--1  */}
-<div className=' flex my-4 flex-row justify-center gap-3 !border border-1 border-red-600'>
+<div className=' flex my-4 flex-row justify-center gap-3 '>
        <div className='flex-col '>
          <div className=' bg-white lg:w-16  md:w-12 w-12 card'>
         <p className='text-center lg:text-5xl md:text-4xl text-4xl mt-2 md:mt-2 text-gray-700'>4</p>
@@ -136,7 +137,7 @@ function WinnerSection() {
 {/* SMALL --- BOX ---END */}
         
 
-<div className='justify-center items-center flex  mx-auto border border-1 border-black'>
+<div className='justify-center items-center flex  mx-auto '>
     <img className='lg:h-32 md:h-32 h-24' src={image2} alt="" />
 </div>
 <div className='text-center'>

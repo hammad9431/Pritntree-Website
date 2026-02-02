@@ -1,6 +1,7 @@
 // import image from '../assets/images/product_boundry-8d7ca4d15433f8b11b44774201fd359c27844b22ef15ade29cc78f307f27fe83.png'
 import image1 from '../assets/images/product_boundry-8d7ca4d15433f8b11b44774201fd359c27844b22ef15ade29cc78f307f27fe83.png'
 import image2 from '../assets/images/image20231019-644101-u5wqgq.webp'
+import imageprim from '../assets/images/prem_lp_2-99b0b52025bf8b6e54ee2a2a6b8660682e89db89e99b17281f7a2b4f56d782ca.jpg'
 function ProductBoundary() {
   return (
     <>
@@ -43,7 +44,7 @@ function ProductBoundary() {
             ))}
           </div>
     <div className='flex justify-center lg:h-80 md:h-80 h-28'>
-    <img  src="src/assets/images/prem_lp_2-99b0b52025bf8b6e54ee2a2a6b8660682e89db89e99b17281f7a2b4f56d782ca.jpg" alt="" />
+    <img  src={imageprim} alt="" />
   </div>
          </div>
         {/* Right Side */}

@@ -1,16 +1,20 @@
-// import image1 from '../assets/images/lineprintree_proccess_1-691e8b508eb4153a65a2d0f07b38fd37ddd0280dd2982931d958c687c7857c83.jpg'
+import { useState, useEffect } from 'react';
+import imageMob from '../assets/images/printree_proccess_1_mob-9d12e5c1f25a6127372128435a1e0f1f0d7ee5f50c6d1aaa249faa4c557a49e8.jpg';
+import imageLg from '../assets/images/printree_proccess_1-691e8b508eb4153a65a2d0f07b38fd37ddd0280dd2982931d958c687c7857c83.jpg';
 
 function Image() {
+  const [isLg, setIsLg] = useState(window.innerWidth >= 1024);
+  useEffect(() => {
+    const handleResize = () => setIsLg(window.innerWidth >= 1024);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
   return (
     <>
     <div className='xl:w-[100%] lg:w-[98%] mx-auto md:my-40 mt-40 xl:my-4 lg:my-16'>
       <div
-     className="w-full xl:w-[95%] mx-auto xl:h-[580px] lg:h-[480px] md:h-[1700px] object-stretch bg-no-repeat bg-cover 
-  // style={{ backgroundImage: `url(${image1})` }}
-
-  bg-[url('src/assets/images/printree_proccess_1_mob-9d12e5c1f25a6127372128435a1e0f1f0d7ee5f50c6d1aaa249faa4c557a49e8.jpg')]
-  lg:bg-[url('src/assets/images/printree_proccess_1-691e8b508eb4153a65a2d0f07b38fd37ddd0280dd2982931d958c687c7857c83.jpg')]
-      ">
+     className="w-full xl:w-[95%] mx-auto xl:h-[580px] lg:h-[480px] md:h-[1700px] bg-no-repeat bg-cover"
+     style={{ backgroundImage: `url(${isLg ? imageLg : imageMob})` }}>
 
 
 
